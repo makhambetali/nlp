@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from schemas.search import SearchQuery
-from functional.search import search_services
+from schemas.search_models import SearchQuery
+from functional.search_engine import search_services
 
 router = APIRouter()
 
